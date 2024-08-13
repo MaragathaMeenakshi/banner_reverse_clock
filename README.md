@@ -1,74 +1,54 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Banner Management Feature
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project includes a banner management feature implemented with React and Node.js. The feature allows users to create, manage, and display banners with the following capabilities:
 
-## Available Scripts
+- **Banner Creation :** Users can input banner details including name, description, display status, timer (hour, minute, second), and a clickable link.
+- **Dynamic Display :** Banners are dynamically displayed based on user input, including the remaining time formatted as a reverse countdown clock.
+- **Toggle Functionality :** Banners can be toggled on or off using a switch control.
+- **Data Management :** The feature includes functionality to fetch, add, and delete banner data from a MySQL database.
 
-In the project directory, you can run:
+## Key Features:
+- **Reverse Countdown Timer:** Shows the remaining time in a reverse clock format.
+- **Banner Details:** Includes a description and a clickable link.
+- **Toggle Display:** Allows users to enable or disable banners dynamically.
+- **CRUD Operations:** Create, Read, Update, and Delete operations for managing banner data in the database.
 
-### `npm start`
+## Technologies Used:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React for user interface development.
+- **Backend:** Node.js with Express for server-side logic.
+- **Database:** MySQL for data storage.
+- **APIs:** RESTful APIs for data interaction between frontend and backend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions:
+- Clone the repository.
+- Install dependencies with npm install.
+  ```
+  npm install
+  ```
+- Configure your MySQL database and update the connection settings.
+- Start the server (backend) .
+  ```
+  cd backend
+  npm start
+  ```
+- To Run Frontend.
+  ```
+  cd frontend
+  npm start
+  ```
 
-### `npm test`
+## Usage:
+Navigate to the dashboard page to create and manage banners.
+Use the toggle switch to enable or disable banners.
+View and interact with the countdown timer and banner details in main page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshot
+Dashboard
 
-### `npm run build`
+![show_banner](https://github.com/user-attachments/assets/158a5c37-ea3a-40a7-9caf-06c3a2342df0)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Main Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# banner_reverse_clock
->>>>>>> d30b7bcb2a54a1cdf7f843cd7f761277beadf9ed
+![show_banner_main_page](https://github.com/user-attachments/assets/299f81ca-c920-4e32-a3c7-203f35080229)
